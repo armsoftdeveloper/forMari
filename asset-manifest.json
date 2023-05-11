@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/armsoftdeveloper/forMari/static/css/main.f9c00ab7.css",
+    "main.js": "/armsoftdeveloper/forMari/static/js/main.08dea6fc.js",
+    "static/media/empty-room-mockup-empty-room-with-light-wall-wooden-floor_410516-8621.avif": "/armsoftdeveloper/forMari/static/media/empty-room-mockup-empty-room-with-light-wall-wooden-floor_410516-8621.f671579f1e73ec9bab30.avif",
+    "static/media/image_2-removebg-preview 1.svg": "/armsoftdeveloper/forMari/static/media/image_2-removebg-preview 1.0aec6cdaa33dae53399b05ba3d72fd4c.svg",
+    "index.html": "/armsoftdeveloper/forMari/index.html",
+    "static/media/Vector.svg": "/armsoftdeveloper/forMari/static/media/Vector.9d189318be159c06e1277a8345eee330.svg",
+    "static/media/Group.svg": "/armsoftdeveloper/forMari/static/media/Group.8b0a4f568f7915622031e63ca65e1d6f.svg",
+    "main.f9c00ab7.css.map": "/armsoftdeveloper/forMari/static/css/main.f9c00ab7.css.map",
+    "main.08dea6fc.js.map": "/armsoftdeveloper/forMari/static/js/main.08dea6fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9c00ab7.css",
+    "static/js/main.08dea6fc.js"
+  ]
+}
