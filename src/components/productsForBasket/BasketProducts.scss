@@ -1,0 +1,25 @@
+.product_bas{
+    padding: 70px 95px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    &_item{
+        border: 1px solid rebeccapurple;
+        padding: 15px; 
+        position: relative;
+        h2{
+            position: absolute;
+            top: 0;
+            right: 1vw;
+            
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                color: red;
+            }
+        }
+        .size{
+            font-size: 15px;
+        }
+    }
+}

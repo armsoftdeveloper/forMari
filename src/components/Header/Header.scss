@@ -1,0 +1,97 @@
+.header {
+    
+    justify-self: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-self: center;
+
+    &_logo {
+        align-self: center;
+    }
+
+    &_nav {
+        display: flex;
+        gap: 3vw;
+        align-self: center;
+        cursor: pointer;
+        font-weight: 800;
+
+        li {
+            font-size: clamp(10px, 1vw, 20px);
+            background: rgba(58, 41, 27, 0.022);
+            border-radius: 5px;
+            padding: 5px;
+            transition: all 100ms ease;
+
+            &:hover {
+                background: rgba(244, 165, 96, 0.425);
+                color: rgb(22, 22, 158);
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &_icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+       
+        
+        img{
+            transition: all 400 ease;
+            cursor: pointer;
+            &:hover {
+                transform: scale(0.9);
+            }
+        }
+
+    }
+
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logout{
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: burlywood;
+    transition: all ease 500ms;
+    &:hover{
+        background-color: salmon;
+        transform: scale(0.96);
+        color: wheat;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        &_nav {
+            gap: unset;
+            align-self: center;
+        }
+
+        &_icons {
+            align-self: center;
+            justify-content: center;
+            gap: 15px;
+        }
+    }
+}
+.logout{
+    height: 50%;
+    border: none;
+    width: 25%;
+    cursor: pointer;
+}

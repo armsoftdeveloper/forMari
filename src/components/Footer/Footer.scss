@@ -1,0 +1,17 @@
+.footer{
+    padding: 60px 90px;
+    background: rgba(244, 165, 96, 0.425);
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    gap: 5vw;
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li{
+            color: black;
+        }
+    }
+    
+}

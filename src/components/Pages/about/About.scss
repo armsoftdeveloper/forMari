@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.about{
+    padding: 50px;
+    text-align: center;
+    background-color: #E5E5E5;
+    .text{
+      color: #44107a;
+      padding: 15px;
+    }
+}
+
+.animate-charcter{
+     
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: clamp(10px,5vw,45px);
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

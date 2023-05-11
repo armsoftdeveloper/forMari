@@ -1,0 +1,83 @@
+.trends{
+    padding: 35px 0;
+    .add{
+        position: fixed;
+        top:0px;
+        left:50px;
+        color: red;
+        padding: 15px;
+        background-color: #0753a9;
+    }
+    &_title{
+        color: #0752A9; 
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    &_navigation{
+        padding: 25px 10vw;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        gap: 2vw;
+        li{
+            padding: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 800;
+            background: rgba(0, 0, 17, 0.098);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 300ms ease;
+            &:hover{
+                transform: scale(1.1);
+                color: saddlebrown;
+                background: rgba(0, 0, 17, 0.432);
+            }
+        }
+    }
+    &_products{
+        display: flex;
+        padding: 5px 10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &_item{
+        background-color: #edf0f2;
+        border: 2px solid rgb(157, 116, 111) ;
+        box-shadow: 4px 4px 5px rgb(206, 167, 133);
+        margin-top: 20px;
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        h4{
+            text-align: center;
+            padding: 2px;
+            font-size: 22px;
+            color: #0753a9;
+        }
+        span{
+            display: block;
+            text-align: left;
+            padding: 3px;
+        }
+        h3{
+            text-align: right;
+            padding: 2px;
+        }
+        .icons{
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            img{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+}

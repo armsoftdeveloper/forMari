@@ -1,0 +1,31 @@
+.basket_block{
+    background-color: #E5E5E5;
+    height: 100vh;
+    padding-top: 15vh;
+    .title{
+        text-align: center;
+        padding: 55px;
+    }
+    &_info{
+        padding:10px 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+    img{
+        width: 250px;
+        height: 210px;
+    }
+    button{
+        margin: 20px 50px;
+        padding: 5px;
+        background-color: rgba(128, 115, 56, 0.361);
+        border-radius: 5px;
+        transition: all 50ms ease;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+            background-color: rgba(24, 24, 24, 0.389);
+            color: #E5E5E5;
+        }
+    }
+}
